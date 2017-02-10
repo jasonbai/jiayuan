@@ -3,7 +3,23 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ /***** Standard 960px *****/
+ @media only screen and (min-width:960px) and (max-width:1200px) {
+     .row { margin:0 auto; width:960px; }
+ }
+ /***** iPad Smaller than 959px *****/
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+     .row { margin:0 auto; width:768px; }
+ }
+ /***** iPhone (portrait) *****/
+ @media only screen and (max-width: 767px) {
+     .row { margin:0 auto; width:300px; }
+ }
 
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+     .row { margin:0 auto; width:456px; }
+ }
+ 
 body {
 	margin-top: 50px;
 	margin-bottom: 50px;
